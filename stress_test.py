@@ -21,7 +21,7 @@ import time
 
 import aiohttp
 
-SERVER_BASE_URL = "http://192.168.1.50:8000"  # <-- ضع هنا IP السيرفر على الشبكة
+SERVER_BASE_URL = "http://192.168.1.96:8000"  # <-- ضع هنا IP السيرفر على الشبكة
 DEFAULT_REQUEST_COUNT = 300
 REQUEST_TIMEOUT_SECONDS = 10
 REQUEST_INTERVAL_SECONDS = 0.2 
