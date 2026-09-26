@@ -15,7 +15,7 @@ import time
 from collections import defaultdict, deque
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-HOST = "127.0.0.1"
+HOST = "0.0.0.0"   # listen on all interfaces so other devices on the LAN can reach it
 PORT = 8000
 
 RATE_LIMIT_MAX_REQUESTS = 5      # max allowed requests
